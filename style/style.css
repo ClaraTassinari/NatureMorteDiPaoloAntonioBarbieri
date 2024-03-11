@@ -1,0 +1,126 @@
+/* background */
+.bg-home {
+    background-image: url("../img/spezieria.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+/*
+.bg-green-dark {
+    background-color: #2d7324;
+}*/
+
+.bg-green-light {
+    background-color: #79b86c;
+}
+
+.bg-gray {
+    background-color: #273624;
+}
+/* color */
+.text-light {
+    color: #defcc0;
+}
+
+.text-dark {
+    color: #1a1f15;
+}
+
+/*padding*/
+.padding-xs {
+    padding: 5px
+}
+
+.padding-s {
+    padding: 10px
+}
+
+.padding-m {
+    padding: 30px
+}
+
+.padding-l {
+    padding: 50px
+}
+
+.padding-xl {
+    padding: 90px
+}
+
+/*margin*/
+.margin-top {
+    margin:5rem;
+}
+
+.margin-bottom {
+    margin:0rem;
+}
+
+
+/* font-size */
+.font-size-l {
+    font-size: 3rem;
+}
+
+.font-size-s {
+    font-size: 20px;
+}
+
+ /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+/*Align text*/
+.text-l {
+  text-align: left;
+}
+
+/*Links*/
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/*logo size*/
+.size-m {
+  width: 80px;
+} 
+
+/*card size*/
+.size-s {
+  width: 18rem;
+} 
+ 
+/*transparent image text*/
+.container .content {
+    position: absolute; /* Position the background text */
+     /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 120%; /* Full width */
+    padding: 20px; /* Some padding */
+}
